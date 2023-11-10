@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 900vh;
+}
+.logo_hannah  {
+    position: absolute;
+    top: 11%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+.campodepesquisa .caixadepesquisa {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.pesquisardiv .botaopesquisa  {
+    position: absolute;
+    top: 2%;
+    left: 52%;
+    height: 40px;
+}
+
+.pesquisardiv button {
+    margin-top:2.5%;
+    border: none;
+    background-color: #f5d4d9;
+    padding: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pesquisardiv button:hover {
+    background-color: #ffc0cb;
+}
+.campodepesquisa .lupa {
+    position: absolute;
+    top: 8%;
+    left: 28%;
+
+}
+.pcadastro {
+    position: absolute;
+    top: 6%;
+    left: 66%;
+    width: 35px;
+    
+}
+
+.pcadastro button {
+    margin-top:2.5%;
+    border: none;
+    background-color: #f5d4d9;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.pcadastro  button:hover {
+    background-color: #ffc0cb;
+}
+
+
+.carrinhodiv {
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    width: 35px;
+}
+
+.carrinhodiv button {
+    margin-top: 2.5%;
+    background-color: #f5d4d9;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.carrinhodiv button:hover {
+    background-color: #ffc0cb;
+}
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color:#f5d4d9;
+    padding: 40px 0px 800px 1%;
+    box-shadow: 3px 0 0 black ;
+
+    position: fixed;
+    top: 0;
+    left:0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover {
+    width: 300px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: 1s;
+}
+ul li.item-menu:hover{
+    background:palevioletred;
+    
+
+}
+
+
+ul li.item-menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+
+}
+ul li.item-menu a .txt-link {
+    margin-left: 40px;
+}
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+
+}
+
+.quadrado1 {
+    position: absolute;
+    top:25%;
+    left: 16%;
+    width: 350px; /* Largura do quadrado */
+    height: 500px; /* Altura do quadrado */
+    background-color: white; /* Cor de fundo branca */
+    border: 1px solid azure; /* Borda preta de 1px */
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.quadrado1 img {
+    max-height: 480px;
+    max-width: 270px;
+    align: center;
+    position: absolute;
+    top: 6%;
+    left: 11%;
+
+    
+}
+
+.quadrado1 button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    border: none;
+    background-color: white;
+
+
+}
+.quadrado1 button:hover {
+    color: #ffc0cb;
+   
+}
+
+
+
+
+.quadrado2 {
+    position: absolute;
+    top:25%;
+    left: 42%;
+    width: 350px; /* Largura do quadrado */
+    height: 500px; /* Altura do quadrado */
+    background-color: white; /* Cor de fundo branca */
+    border: 1px solid azure; /* Borda preta de 1px */
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.quadrado2 button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    border: none;
+    background-color: white;
+
+
+}
+.quadrado2 button:hover {
+    color: #ffc0cb;
+}
+
+.quadrado2 img {
+    max-height: 480px;
+    max-width: 270px;
+    align: center;
+    position: absolute;
+    top: 6%;
+    left: 11%;
+}
+
+.quadrado3 {
+    position: absolute;
+    top:25%;
+    left: 68%;
+    width: 350px; 
+    height: 500px;
+    background-color: white; 
+    border: 1px solid azure;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.quadrado3 img {
+    max-height: 480px;
+    max-width: 270px;
+    align: center;
+    position: absolute;
+    top: 6%;
+    left: 11%;
+}
+
+.quadrado3 button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: absolute;
+    top: 80%;
+    left: 16%;
+    border: none;
+    background-color: white;
+
+
+}
+.quadrado3 button:hover {
+    color: #ffc0cb;
+}
